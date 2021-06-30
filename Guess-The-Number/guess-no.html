@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess-a-Number</title>
+</head>
+<body>
+    <h1>Guess the number </h1>
+    <h2>You have to pick a number between 0 and 100 until your Guess is correct!!!  <br></h2>
+    <div>
+    <!-- <form action="checkGuessedNumber()"> -->
+    <input type="number" id="number" placeholder="Enter your Number here." value="">
+    <input type="submit" id="submit" onclick="checkGuessedNumber()" class="btn" value="Submit">
+    <!-- </form> -->
+    </div>
+    <div>
+        <textarea id="message" placeholder="Result will be shown here...."></textarea>
+    </div>
+    
+
+    <script>
+        var count=1;
+        var randInt = Math.floor(Math.random() * 100);
+        document.getElementById("submit").onclick = function(){
+            var guessedNumber = document.getElementById("number").value;
+            if (guessedNumber==randInt) {
+                document.getElementById("message").innerHTML="Congratts!! You have guessed the correct number i.e. "+guessedNumber;
+                alert("Congratts!! You have guessed the correct number");
+                randInt = Math.floor(Math.random() * 100);
+                document.getElementById(number).placeholder="Enter your Number here."
+                
+                
+            } 
+            else if(guessedNumber>randInt){
+                document.getElementById("message").innerHTML="Bad Luck!! Try a Smaller number";
+                alert("Bad Luck!! Try a Smaller number");
+                count++;
+            }
+            
+            else {
+                document.getElementById("message").innerHTML="Bad Luck!! Try a Greater number";
+                alert("Bad Luck!! Try a Greater number");
+                count++;
+            }
+        }
+       </script>
+    
+</body>
+</html>

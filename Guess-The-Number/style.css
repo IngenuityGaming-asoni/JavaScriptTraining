@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+}
+input{
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    height: 40px;
+    width: 300px;
+    float: left;
+}
+.btn{
+    height: 45px;
+    width: 100px;
+    margin-left: 10px;;
+    padding-left: 10px 10px 10px 10px;
+    border: 2px solid cornflowerblue;
+    /* background-color:  cornflowerblue; */
+    /* color: white; */
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    /* filter: opacity(70%); */
+    color: white;
+}
+textarea{
+    margin-left: 20px;;
+    float:none;
+    height: 60px;
+    width: 600px;
+}
