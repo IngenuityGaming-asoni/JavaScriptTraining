@@ -1,0 +1,345 @@
+
+body { 
+  display: block;
+  margin: 0px;
+  background-color: rgba(219, 219, 206, 0.712);
+}
+.nav-bar{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0px;
+    border-bottom:1px solid lightgrey;
+    background-color: white;
+    z-index: 100;
+}
+.linkedin-icon{
+    margin: 11px 0px 12px 100px;
+    height: 54px;
+    width: 50px;
+    float: left;
+    /* background-color: black; */
+    cursor: pointer;
+}
+.licon{
+    /* margin: 11px 25px 12px 100px; */
+    height: 42px;
+    width: 42px;
+    /* float: left; */
+    position: relative;
+    /* background-color: #0a66c2; */
+}
+.search-bar{
+    outline: none;
+    /* padding: 11px 25px 12p 150px; */
+    /* padding-left: 25px; */
+    margin-top: 11px;
+    height: 42px;
+    width: 22%;
+    /* width: 400px; */
+    /* background-color: black; */
+    background-color: #d9d8e9e3;
+    border-radius: 4px;
+    float: left;
+    position:relative;
+
+}
+/* .search-bar:focus{ */
+    /* outline: none; */
+/* } */
+.sicon{
+    padding:10px 5px 10px 20px ;
+    height: 25px;
+    width:25px;
+    /* position: relative; */
+    filter: opacity(50%);
+    float: left;
+    
+}
+.sicon:hover{
+    filter: opacity(100%);
+}
+.search{
+    padding: 11px 10px 11px ;
+    border : none;
+    height: 25px;
+    width: inherit;
+    /* margin:10px 10px 10px 10px ; */
+    background-color: rgba(255, 255, 255, 0);
+    float: right;
+    position: absolute;
+    font-size: 20px;
+}
+.blank{
+    height: inherit;
+    width: 10%;
+    /* background-color: black; */
+    float: left;
+}
+.menu{
+    overflow: hidden;
+}
+.li{
+    float: left;
+    padding-left: 20px;
+    list-style: none;
+    color: lightslategrey;
+}
+li:hover{
+    color: black;
+    /* filter: opacity(100%); */
+}
+.nav-t{
+    /* overflow:auto; */
+    margin: 0 auto;
+    /* align-items: center; */
+    text-align: center;
+    width: 8%;
+    margin-top: 11px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: inherit;
+    cursor: pointer;
+    /* filter: brightness(200%); */
+}
+.nav-t:hover{
+    filter: opacity(100%);
+    filter: drop-shadow(2px 2px 2px gray);
+}
+.hicon{
+    
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    filter: opacity(60%);
+
+}
+.hicon:hover{
+    filter: opacity(100%);
+    /* box-shadow:2px 2px 20px 2px grey; */
+    filter: drop-shadow(2px 2px 2px gray);
+}
+.meicon{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    box-shadow:2px 2px 20px 2px grey;
+    /* float: left; */
+}
+.nav-d{
+    height: 12px;
+    width: 12px;;
+}
+.vl{
+    height: 65px;
+    width: 2px;
+    /* position: absolute; */
+    border-left: 1px solid lightgrey;
+}
+.p{
+    color: black;
+}
+.p:hover{
+    color: darkblue;
+}
+.block{
+    width :59%;
+    /* border: 2px solid lightgrey; */
+    border: none;
+    border-radius: 10px;
+    /* margin-left: 70px; */
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding:0px 24px 24px 24px; */
+    padding: 24px;
+    background-color: white;
+    position:relative;
+    box-shadow: 2px 2px 20px 2px grey;
+}
+.block:hover{
+    box-shadow: 2px 2px 20px 2px black;
+}
+.info{
+    height: 475px;
+    margin-top: 130px;
+    /* margin-bottom: 30px; */
+    clear: both;
+    /* padding-bottom: 24px; */
+      padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+}
+    .cover{
+
+        height: 235px;
+        width: all;
+        position: absolute;
+        z-index: 10;
+        border: none;
+        margin-left: -24px;
+        margin-top: -24px;
+        border-bottom: 1 px solid lightgrey;
+        /* background-color: lime; */
+        border-radius: inherit;
+        /* background-image: url('image/cover___.jpg'); */
+    }
+    .cover-i{
+        height: inherit;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        border-radius: 10px 10px 0px 0px;
+        /* filter: saturate(3); */
+    }
+    .details{
+        position: relative;
+        /* padding-left: 24px; */
+        /* padding-right: 24px; */
+        /* padding-bottom: 24px; */
+        height: 210px;
+        /* min-height:auto ; */
+        /* height:unset; */
+        /* background-color: firebrick ; */
+        /* padding-bottom: 30px; */
+    }
+    .matter{
+        /* margin-left: 30px   ; */
+        position: relative;
+        float: left;
+        width: 65%;
+        height: inherit;
+        line-height: 0px;
+        /* background-color:tomato; */
+
+    }
+    .edu{
+        position: relative;
+        max-height: 5rem;
+        font-size: 1.2rem;
+        float: right;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        width: 30%;
+        cursor: pointer;
+        font-weight: bold;
+        overflow: visible;
+        /* background-color: violet; */
+    }
+    .profile-photo{
+        position: relative;
+        display: inline-block;
+        z-index: 10;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-left: 6px;
+        margin-top: 75px;
+        border: 5px solid white;
+        background-color: wheat;
+    }
+    .profile-p{
+        height: inherit;
+        width: inherit;
+        border-radius: inherit;
+    }
+    /* .detail{ */
+        /* line-height: 2px; */
+        /* background-color: darkseagreen; */
+
+    /* } */
+    #name{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        /* font-size: 20px; */
+        font-size: 35px;
+        font-weight: bold;
+
+        line-height: 0px;
+
+    }
+    #position{
+        font: 1.5em sans-serif;
+    }
+    #address{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(117, 117, 117);
+        /* line-height: 1.2; */
+    }
+    #conn{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:rgb(50, 50, 180); 
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #btn{
+        background-color:white; /* Green */
+        border: 2px solid grey;
+        color: grey;
+        font-weight: bold;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 7px 15px 7px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-left: 10px;
+        /* font-weight: 5px; */
+    }
+    #btn:hover{
+        border: 3px solid grey;
+        background-color: lightgrey;
+        color:rgb(88, 88, 88);
+    }
+.block-heading{
+    font-size: 2rem;
+    color: black;
+    line-height: 1.4;
+        /* padding: 24px; */
+        /* width: 59%; */
+    font-weight: 400;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.about-content{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    color: rgb(78, 78, 78);
+    padding-left: 5px;;
+    /* padding: 24px; */
+
+}
+.sub-heading{
+    font-weight: bold;
+  
+    display: inline;
+}
+.sub{
+    font-size: 20px;
+}
+li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: rgb(78, 78, 78);
+}
+.footer{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 80%;
+    padding: 25px;
+    /* background-color:burlywood; */
+}
+.logo{
+    height: 50px;
+    width: 150px;
+}
+.column {
+    float: left;
+    width: 25%;
+    /* padding: 15px; */
+    /* background-color:cadetblue; */
+    color: rgb(117, 115, 115);
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
