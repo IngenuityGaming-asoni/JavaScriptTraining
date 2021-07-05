@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    /* background-color: red; For browsers that do not support gradients */
+  /* background-image: linear-gradient(0deg, aqua,green); */
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: 'poppins',sans-serif;
+    
+    /* background: linear-gradient(to bottom, aqua 0%,green 100%); */
+}
+
+.container{
+    margin: 120px auto;
+    max-width: 350px;
+    /* width: 100%; */
+    border-radius: 5px;
+    padding: 40px;
+    /* text-align: center; */
+    align-content: center;
+    /* background-color: aqua; */
+}
+header{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+}
+.container .todolist{
+    max-height: 300px;
+    overflow-y: auto;
+}
+.inputfield{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+    /* border:1px solid gray; */
+}
+.inputfield input{
+    border: 1px solid gray;
+    width: 85%;
+    height: 100%;
+    padding-left: 15px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.inputfield button{
+    width: 15%;
+    margin-left: 7px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    background-color: tomato;
+    /* cursor: pointer; */
+    opacity: 0.5;
+    cursor:not-allowed;
+
+}
+.inputfield button.active{
+    opacity: 1;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    height: 45px;
+    line-height: 40px;
+    position: relative;
+    background-color: rgb(231, 229, 229);
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 0px 15px;
+    color: rgb(88, 88, 88);
+    overflow: hidden;
+}
+.todolist li span img{
+    height: 45px;
+    width: 45px;
+    /* background-color: tomato; */
+    border-radius: 3px;
+}
+.todolist li span{
+    position: absolute;
+    right: -45px;
+    /* background-color: rgb(61, 147, 204); */
+    color: white;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+
+}
+.todolist li:hover span{
+    right: 0;
+}
+.todolist li.checked {
+    /* content: &#10003; */
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+.container .footer{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: tomato;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 7px 10px;
+    opacity: 0.5;
+    cursor:not-allowed;
+
+}
+.footer button.active{
+    opacity: 1;
+    cursor: pointer;
+}
