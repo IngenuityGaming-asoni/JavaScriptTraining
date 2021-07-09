@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <canvas id="canvas"></canvas>
+    <!-- <h1>Hello World</h1> -->
+    <div id="coordinate"></div>
+    <div class="toolbar">
+        <ul>
+            <li><input type="color" id="fcolor"  onchange="fillColor(this)" > <img id="fillColor" src="image/fill-color.png" onclick="fillBtn('true')"></li>
+            <li><img id="brush" src="image/brush.png" onclick = "Brush()" ></li>
+            <li><input id="brushsize" type="range" min="1" max="100" value="1" onchange="brushSize(this)"></li>
+            <li><input id="colorpick" type="color" value="#000000" onchange="colorpicker(this)" > </li>
+            <li><img id="rect" src="image/square.png" onclick="rectangle()"></li>
+            <li><img id="line" src="image/line.png" onclick="line()"></li>
+            <li><img id="ellipse" src="image/ellipse.png" onclick="ellipse()"></li>
+            <!-- <li><img id="polygon" src="image/polygon.png"></li> -->
+            <li><img id="eraser" src="image/eraser.png" onclick="erase()"></li>
+            <li><button id="clearAll" onclick="clearAll()">Clear All</button></li>
+            <li><button id="save" onclick = "Save(this)" download = "canvas.png">Save</button></li>
+            
+        </ul> 
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
