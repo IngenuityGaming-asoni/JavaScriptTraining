@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/icon.png" type="image/png">
+    <!-- <script data-main="modules/script.js" src="modules/require.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div class="Instruction"><h1> Instructions</h1><br><br>        
+        <ul>
+            <li>Arrow Up -> To Rotate the Block</li>
+            <li>Arrow Left -> To Move the Block to Left </li>
+            <li>Arrow Right -> To Move the Block to Right </li>
+            <li>Arrow Down -> To Move the Block Downwards</li>
+            <li>Space -> To Pause/Play the Game</li>
+        </ul>
+    </div>
+    <div id="score"><h1>Score : </h1>
+        <h2 id="scoreboard"></h2>
+
+    </div>
+    <div id="gameover"><br><br> Game Over !!!!! <br><br><br>
+        <!-- SCORE : <h2 id="scoreboard"></h2> -->
+        <button id="restart" onClick="window.location.reload();">Restart</button>
+    </div>
+
+
+    
+</body>
+<script src="modules/script.js" type="module"></script>
+<!-- <script data-main="modules/script.js" src="modules/require.js"></script> -->
+</html>
